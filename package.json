@@ -1,7 +1,7 @@
 {
   "name": "vue-pdf-printer",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@9.1.1",
   "description": "A tool for printing Vue components to PDF",
   "author": "CofCat <a25690756@gmail.com>",
