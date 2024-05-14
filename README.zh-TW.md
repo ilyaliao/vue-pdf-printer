@@ -6,30 +6,30 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-<p align="center">English | <a href="./README.zh-TW.md">繁體中文</a></p>
+<p align="center"><a href="./README.md">English</a> | 繁體中文</p>
 
 <br>
 <br>
 
-A lightweight tool for printing Vue components to PDF.
+一個輕量化用來將 Vue 元件打印成 PDF 的工具。
 
-## ✨ Features
+## ✨ 特徵
 
-Inspired by [vue3-print-nb](https://github.com/Power-kxLee/vue-print-nb), but:
+受到 [vue3-print-nb](https://github.com/Power-kxLee/vue-print-nb) 的啟發, 但:
 
-- More lightweight
-- Supports Typescript
-- No need to render the component to be printed, directly convert the component to PDF
+- 更輕量
+- 支援 `Typescript`
+- 無需渲染要打印的元件，直接將元件轉換成 PDF
 
-## 🚀 Usage
+## 🚀 使用
 
 ### `.preview()`
 
-Opens a new window to preview the printed PDF.
+新開一個視窗，用來預覽打印後的 PDF。
 
 ### `.print()`
 
-Executes the print.
+執行打印。
 
 ### Example
 
@@ -43,7 +43,7 @@ import Com from './components/Com.vue'
 const printer = shallowRef<VuePdfPrinter>()
 
 onMounted(() => {
-  // use h to pass props into the component, or you can pass the component directly without using h.
+  // 使用 h 來傳遞 props 進入元件，也可以不使用 h 直接傳入元件
   PDF.value = new VuePdfPrinter(
     h(Com, { title: 'some title' }),
     {
@@ -51,7 +51,7 @@ onMounted(() => {
     },
   )
 
-  // open print window
+  // 打開打印視窗
   printer.value.print()
 })
 </script>

@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { h, onMounted, shallowRef } from 'vue'
 
-import { PDFPrinter } from '../../src/index'
+import { VuePdfPrinter } from '../../src/index'
 import Com from './components/Com.vue'
 
-const PDF = shallowRef<PDFPrinter | undefined>()
+const PDF = shallowRef<VuePdfPrinter>()
 
 onMounted(() => {
-  PDF.value = new PDFPrinter(
+  PDF.value = new VuePdfPrinter(
     h(Com, { title: 'test pdf' }),
     {
       title: 'test pdf',
