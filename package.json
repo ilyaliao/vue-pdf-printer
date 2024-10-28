@@ -4,14 +4,14 @@
   "version": "0.0.1",
   "packageManager": "pnpm@9.1.1",
   "description": "A tool for printing Vue components to PDF",
-  "author": "CofCat <a25690756@gmail.com>",
+  "author": "ilyaliao",
   "license": "MIT",
-  "homepage": "https://github.com/CofCat456/vue-pdf-printer#readme",
+  "homepage": "https://github.com/ilyaliao/vue-pdf-printer#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CofCat456/vue-pdf-printer.git"
+    "url": "git+https://github.com/ilyaliao/vue-pdf-printer.git"
   },
-  "bugs": "https://github.com/CofCat456/vue-pdf-printer/issues",
+  "bugs": "https://github.com/ilyaliao/vue-pdf-printer/issues",
   "keywords": [
     "vue",
     "pdf"

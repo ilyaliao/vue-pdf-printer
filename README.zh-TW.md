@@ -59,7 +59,7 @@ onMounted(() => {
 
 ## 📄 License
 
-[MIT](./LICENSE) License © 2024-PRESENT [CofCat](https://github.com/CofCat456)
+[MIT](./LICENSE) License © 2024-PRESENT [Ilya Liao](https://github.com/ilyaliao)
 
 <!-- Badges -->
 
@@ -69,7 +69,7 @@ onMounted(() => {
 [npm-downloads-href]: https://npmjs.com/package/vue-pdf-printer
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/vue-pdf-printer?style=flat&colorA=080f12&colorB=1fa669&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=vue-pdf-printer
-[license-src]: https://img.shields.io/github/license/CofCat456/vue-pdf-printer.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/CofCat456/vue-pdf-printer/blob/main/LICENSE
+[license-src]: https://img.shields.io/github/license/ilyaliao/vue-pdf-printer.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/ilyaliao/vue-pdf-printer/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
 [jsdocs-href]: https://www.jsdocs.io/package/vue-pdf-printer
